@@ -1,0 +1,13 @@
+name: linting code 
+
+on:push
+
+jobs:
+
+  linting-code:
+   runs-on: ubuntu-latest
+
+  steps:
+   - name: Super-Linter
+     uses: github/super-linter@latest
+   
