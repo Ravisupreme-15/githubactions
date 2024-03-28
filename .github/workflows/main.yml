@@ -7,8 +7,7 @@ jobs:
    runs-on: ubuntu-latest
 
    steps: 
-   
-    - name: action checkout
     - uses: actions/checkout@v4
-    - name: run a sample hello world Workflow
+    
+    - name: Run a sample Workflow
       run: echo "Hi! this workflow runs sucessfully"
